@@ -12,7 +12,7 @@ Violet Exoplanet has three goals as a theme:
 * Create a flat, aesthetically-pleasing UI
 * Optimize UX via panel configurations
 
-This theme utilizes a handful of custom title and style scripts. These scripts are built into `violet_exoplanet.fcl`, but I've added a folder with each script for convenience.
+This theme utilizes a handful of custom title and style scripts. These scripts are built into `violet_exoplanet.fcl`, but I will provide each script for convenience (TODO).
 
 Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.deviantart.com/niivu/art/Adapta-675581778) on Deviant Art. This theme is responsable for the coloration of the titlebar and scrollbars, among other things.
 
