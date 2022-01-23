@@ -2,7 +2,7 @@
 
 A flat, minimal foobar2000 ColumnsUI theme.
 
-![A preview screenshot of foobar2000 with the Violet Exoplanet theme.](\previews\violet_exoplanet-01.png)
+![A preview screenshot of foobar2000 with the Violet Exoplanet theme.](previews/violet_exoplanet-01.png)
 
 ## Description
 
