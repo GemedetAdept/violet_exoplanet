@@ -9,12 +9,12 @@ A flat, minimal foobar2000 ColumnsUI theme.
 Violet Exoplanet has three goals as a theme:
 
 * Be easy on the eyes and/or reduce eye-strain
-* Create a flat, aesthetically-pleasing UI
+* Create a flat, aesthetically pleasing UI
 * Optimize UX via panel configurations
 
 This theme utilizes a handful of custom title and style scripts. These scripts are built into `violet_exoplanet.fcl`, but I will provide each script for convenience (TODO).
 
-Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.deviantart.com/niivu/art/Adapta-675581778) on Deviant Art. This theme is responsable for the coloration of the titlebar and scrollbars, among other things.
+Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.deviantart.com/niivu/art/Adapta-675581778) on Deviant Art. This theme is responsible for the coloration of the titlebar and scrollbars, among other things.
 
 ## Getting Started
 
@@ -39,9 +39,9 @@ Note: it is highly recommended to install components using fb2k's component mana
 
 * Download the components from the links provided above.
 >
-* foobar2000 may attempt to automatically install it but, if not, you can use the built-in components manager.
+* foobar2000 may attempt to automatically install it but, if not, you can use the built-in component manager.
 >
-* With foobar2000 open, navigate to the components manager.
+* With foobar2000 open, navigate to the component manager.
     * **Library** > **Configure** > **Components**
 >
 * Click the "Install..." button.
