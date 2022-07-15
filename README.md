@@ -4,6 +4,21 @@ A flat, minimal foobar2000 ColumnsUI theme.
 
 ![A preview screenshot of foobar2000 with the Violet Exoplanet theme.](previews/violet_exoplanet-01.png)
 
+Table of Contents
+===
+
+<!--ts-->
+   * [Description](#description)
+   * [Getting Started](#getting-started)
+      * [Packages](#packages)
+      * [Installation](#installation)
+         * [Components](#components)
+         * [Layout](#layout)
+   * [Scripts](#scripts)
+      * [Installing Themes](#installing-themes)
+      * [Violet Exoplanet Theme](#violet-exoplanet-theme)
+<!--te-->
+
 ## Description
 
 Violet Exoplanet has three goals as a theme:
@@ -66,7 +81,7 @@ Note: it is highly recommended to install components using fb2k's component mana
 
 ## Scripts
 
-To use this (or any) theme:
+### Installing Themes
 
 * With foobar2000 open, navigate to Columns UI's "Main" settings.
 >
@@ -78,7 +93,7 @@ To use this (or any) theme:
 >
 * Paste in (and/or write your own) the theme script into the text box, then click **Apply**.
 
-### Violet Exoplanet Theme Script
+### Violet Exoplanet Theme
 ---
 ```
 $ifequal($mod(%list_index%,2),0,
