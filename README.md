@@ -66,4 +66,62 @@ Note: it is highly recommended to install components using fb2k's component mana
 
 ## Scripts
 
-[TODO]
+To use this (or any) theme:
+
+* With foobar2000 open, navigate to Columns UI's "Main" settings.
+>
+* **Library** > **Configure** > **Display** > **Columns UI** > **Playlist view** > **Globals**
+>
+* Under **Globals**, go to the **Style** tab.
+>
+* Leave **Use global variables for display** and **Use global variables when sorting by column** unchecked.
+>
+* Paste in (and/or write your own) the theme script into the text box, then click **Apply**.
+
+### Violet Exoplanet Theme Script
+---
+```
+$ifequal($mod(%list_index%,2),0,
+$puts(back,
+$rgb(87, 69, 95)),
+$puts(back,
+$rgb(79, 63, 86))
+)
+
+$puts(back-selected,
+$rgb(125, 98, 132)
+)
+$puts(back-selected-unfocused,
+$rgb(125, 98, 132)
+)
+$set_style(back,
+$get(back),$get(back-selected),$get(back-selected-unfocused)
+)
+
+$ifequal($mod(%list_index%,2),0,
+$puts(text,
+$rgb(0, 191, 187)
+),
+$puts(text,
+$rgb(88, 231, 231))
+)
+
+$puts(text-selected,
+$rgb(249, 180, 252)
+)
+$puts(text-selected-unfocused,
+$rgb(249, 180, 252)
+)
+$set_style(text,
+$get(text),$get(text-selected),$get(text-selected-unfocused)
+)
+
+$if(%isplaying%,
+$set_style(back,
+$rgb(216,167,209),$rgb(216,167,209))
+)
+$if(%isplaying%,
+$set_style(text,
+$rgb(0,0,0),$rgb(0,0,0))
+)
+```
