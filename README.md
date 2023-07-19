@@ -1,6 +1,6 @@
 # Violet Exoplanet
 
-A flat, minimal foobar2000 ColumnsUI theme.
+A flat, minimal foobar2000 (v1.6) ColumnsUI theme.
 
 ![A preview screenshot of foobar2000 with the Violet Exoplanet theme.](previews/violet_exoplanet-01.png)
 
@@ -33,9 +33,11 @@ Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.
 
 ## Getting Started
 
+(2023-07-19) I found out that because of the package dependencies, this layout no longer works in the v2.0 of foobar2000. I have tested it, and it currently works in v1.6.16.
+
 ### Packages
 
-These packages are required for all panels to function correctly. They can all be found in `violet_exoplanet\packages`.
+These packages are required for all panels to function correctly.
 
 * [Columns UI (foo_ui_columns)](https://www.foobar2000.org/components/view/foo_ui_columns)
 * [Musical Spectrum (foo_musical_spectrum)](https://hydrogenaud.io/index.php/topic,97404.0.html)
@@ -43,6 +45,7 @@ These packages are required for all panels to function correctly. They can all b
 * [Playlist Organizer (foo_plorg)](https://www.foobar2000.org/components/view/foo_plorg)
 * [Playback Statistics (foo_playcount)](https://www.foobar2000.org/components/view/foo_playcount)
 * [Waveform Minibar (foo_wave_minibar_mod)](https://www.foobar2000.org/components/view/foo_wave_minibar_mod)
+* [Queue Contents Editor (foo_queuecontents)](https://www.foobar2000.org/components/view/foo_queuecontents)
 
 ### Installation
 
