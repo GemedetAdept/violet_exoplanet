@@ -34,6 +34,7 @@ Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.
 ## Getting Started
 
 (2023-07-19) I found out that because of the package dependencies, this layout no longer works in the v2.0 of foobar2000. I have tested it, and it currently works in v1.6.16.
+(2025-09-08) I looked into it more, and it seems like the/another issue is that `foo_plorg` and `foo_wave_minibar_mod` are 32-bit, and thus will not work with the default 64-bit installation of foobar2000.
 
 ### Packages
 
