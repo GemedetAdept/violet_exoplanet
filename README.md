@@ -145,3 +145,11 @@ $set_style(text,
 $rgb(0,0,0),$rgb(0,0,0))
 )
 ```
+
+## Extras
+
+### Media Button Icons
+
+The icons shown for the media buttons are from this repository by phurtive:
+
+* [foobar2000 Icon Pack](https://github.com/phurtive/fb2k_icons)
