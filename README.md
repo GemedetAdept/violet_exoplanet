@@ -38,8 +38,14 @@ Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.
 (2025-09-08) I looked into it more, and it seems like the/another issue is that `foo_plorg` and `foo_wave_minibar_mod` are 32-bit, and thus will not work with the default 64-bit installation of foobar2000.
 
 (2026-08-24) Updates for Windows 11: 
-  - I unfortunately have not gotten Adapta to work with Windows 11, and so I have opted to use the theme ["pi11z," by niivu](https://www.deviantart.com/niivu/art/pi11z-for-Windows-11-1084568949). Unlike Windows 10, however, this does not theme the titlebar of the program.
-  - Normally the approach would be to use Windows 11's dark mode for foobar2000 (which is an option in the display settings) because this would also apply the dark theme to the titlebar. However, doing this also completely overwrites the theme script, making it moot. It _is_ possible to manually enter all of the respective colors within CLI, but I find that this defeats the purpose of being able to drop in the theme or paste the script with ease.
+  - I unfortunately have not gotten Adapta to work with Windows 11, and so I have opted to use the theme ["pi11z," by niivu](https://www.deviantart.com/niivu/art/pi11z-for-Windows-11-1084568949). Unlike Windows 10, however, this does not theme the title bar of the program.
+  - Normally the approach would be to use Windows 11's dark mode for foobar2000 (which is an option in the display settings) because this would also apply the dark theme to the title bar. However, doing this also completely overwrites the theme script, making it moot. It _is_ possible to manually enter all of the respective colors within CLI, but I find that this defeats the purpose of being able to drop in the theme or paste the script with ease.
+
+(2026-08-24) Title bar fix
+  - After playing with some settings I found that one solution to the title bar not having the dark theming is a single setting in the Windows `Personalization` settings. To fix the issue:
+  1. `Win + I` to open system settings
+  2. Navigate to `Personalization` > `Colors`
+  3. Below the grid of accent colors, toggle `Show accent color on title bars and window borders` to ON.
 
 ### Packages
 
