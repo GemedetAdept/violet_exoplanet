@@ -1,14 +1,15 @@
 # Violet Exoplanet
 
-A flat, minimal foobar2000 (v1.6) ColumnsUI theme.
+A flat, minimal foobar2000 ColumnsUI theme.
 
-![A preview screenshot of foobar2000 with the Violet Exoplanet theme.](previews/violet_exoplanet-01.png)
+![A preview screenshot of foobar2000 with the Windows 11 Violet Exoplanet theme.](previews/violet_exoplanet_pi11z-niivu.png)
 
 Table of Contents
 ===
 
 <!--ts-->
    * [Description](#description)
+      * [Versions](#versions) 
    * [Getting Started](#getting-started)
       * [Packages](#packages)
       * [Installation](#installation)
@@ -29,11 +30,32 @@ Violet Exoplanet has three goals as a theme:
 
 This theme utilizes a handful of custom title and style scripts. These scripts are built into `violet_exoplanet.fcl`, but I will provide each script for convenience (TODO).
 
-Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.deviantart.com/niivu/art/Adapta-675581778) on DeviantArt. This theme is responsible for the coloration of the titlebar and scrollbars, among other things.
+### Versions
 
-## Getting Started
+<details>
+  <summary><b>Windows 10</b></summary>
 
-(2023-07-19) I found out that because of the package dependencies, this layout no longer works in the v2.0 of foobar2000. I have tested it, and it currently works in v1.6.16.
+  Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.deviantart.com/niivu/art/Adapta-675581778) on DeviantArt. This theme is responsible for the coloration of the title bar and scrollbars, among other things.
+
+  #### Version: foobar2000 v1.6
+  
+  ![A preview screenshot of foobar2000 with the Windows 10 Violet Exoplanet theme.](previews/violet_exoplanet-01.png)
+</details>
+
+<details>
+  <summary><b>Windows 11</b></summary>
+
+  This is the current version/iteration of Violet Exoplanet, utilizing the Windows 11 theme ["pi11z," by niivu](https://www.deviantart.com/niivu/art/pi11z-for-Windows-11-1084568949). If you run into trouble with the title bar not being affected by Windows' dark theme, consult `Troubleshooting and Notes` below.
+
+  #### Version: foobar2000 v2.0, 32-bit
+
+  ![A preview screenshot of foobar2000 with the Windows 11 Violet Exoplanet theme.](previews/violet_exoplanet_pi11z-niivu.png)
+</details>
+
+<details>
+  <summary><b>Troubleshooting and Notes</b></summary>
+
+  (2023-07-19) I found out that because of the package dependencies, this layout no longer works in the v2.0 of foobar2000. I have tested it, and it currently works in v1.6.16.
 
 (2025-09-08) I looked into it more, and it seems like the/another issue is that `foo_plorg` and `foo_wave_minibar_mod` are 32-bit, and thus will not work with the default 64-bit installation of foobar2000.
 
@@ -46,6 +68,9 @@ Note: I have used the custom Windows 10 theme, ["Adapta," by niivu](https://www.
   1. `Win + I` to open system settings
   2. Navigate to `Personalization` > `Colors`
   3. Below the grid of accent colors, toggle `Show accent color on title bars and window borders` to ON.
+</details>
+
+## Getting Started
 
 ### Packages
 
